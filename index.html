@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en-gb" dir="ltr">
+	<head>
+		<meta charset="utf-8" />
+		<title>MTK Jquery Demo</title>
+		
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" type="text/css" href="css/flexigrid.pack.css" />
+		<link href="css/jquery.loadmask.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="set set-1">
+				<div class="panel panel-1">
+					<h2>QoS</h2>
+					<div id="content">
+						<div id="sidebar">
+							<div id="menu" class="left-box">
+								<div class="content">
+									<table class="user" style="display: none"></table>
+								</div>
+							</div>
+							<div id="updates" class="left-box">
+
+							</div>
+						</div>
+						<div id="main">
+							<div id="welcome" class="right-box">
+								<div class="content">
+									<div id="user_detail" style="display:none" >
+										<div class="user_detail_center">
+<p class="userDetailInfo"> <label style="padding-left:70px;padding-right:13px" for="weight">Weight</label> <input type="text" name="weight" id="weight" readonly /> </p>
+<p class="userDetailInfo"> <label style="padding-left:70px" for="schedule">Schedule</label> <input type="text" name="schedule" id="schedule" readonly /> </p>
+										</div>
+		<div class="user_detail_leftRail">
+<p class="userDetailInfo"> <label for="uptime" style="padding-right:38px" >Uptime</label> <input type="text" name="uptime" id="uptime" readonly /> </p>
+<p class="userDetailInfo"> <label for="device Profile">Device Profile</label> <input type="text" name="deviceprofile" id="deviceprofile" readonly /> </p>
+<p class="userDetailInfo"> <label for="device Priority">Device Priority</label> <input type="text" name="devicepriority" id="devicepriority" readonly /> </p>
+</div>
+		<div class="user_detail_rightRail">
+
+
+<p class="userDetailInfo"> <label for="upload" style="padding-right:15px" >Upload</label> <input type="text" name="upload" id="upload" readonly /> </p>
+<p class="userDetailInfo"> <label for="download">Download</label> <input type="text" name="download" id="download" readonly /> </p>
+</div>
+									</div>
+									<div id="piechart">peichart</div>
+									<div id="priority">
+										<div>
+											<input type="radio" name="priority_qos_mode" value="0">&nbsp;Intelligent QoS</input><br />
+											<input type="radio" name="priority_qos_mode" value="1">&nbsp;Custom Prioritizing</input>
+										</div>
+										<nav id="priority_qos_navigate">
+										<ul>
+											<li><a id="link-top" href="#top" class="scroll"></a></li>
+											<li><a id="link-bottom" href="#bottom" class="scroll"></a></li>
+										</ul>
+										</nav>
+										<table id="priority_qos" cellspacing="0" cellpadding="2">
+										</table>
+
+									</div>
+								</div>
+							</div>
+							<div id="example" class="right-box">
+								<div class="content">
+									<table class="all_apps" style="display: none"></table>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!--
+					<button class="btn">Show tab 3</button>
+					<button class="destroy">Destroy</button>
+					<button class="apply">Apply</button>
+					-->
+				</div>
+				<div class="panel panel-2">
+					<h2>My network</h2>
+                    <div id="topology" ></div>
+				</div>
+			
+			
+				<div class="panel panel-3">
+					<h2>Parental_Control</h2>
+				</div>
+			</div>
+		</div>
+		
+		<script src="js/jquery/jquery.1.7.0.min.js"></script>
+		<script src="js/jquery/mtabs.js"></script>
+		<script type="text/javascript" src="js/jquery/jquery.loadmask.min.js"></script>
+		<script type="text/javascript" src="js/jquery/flexigrid.pack.js"></script>
+        <!--<script type="text/javascript" src="js/flexigrid.js"></script>-->
+		<script type="text/javascript" src="js/jquery/jquery.tablednd.0.7.min.js"></script>
+        <script type="text/javascript" src="js/joint/joint.all.min.js"></script>
+        <!--<script type="text/javascript" src="js/joint/joint.all.js"></script>-->
+        <!--<script type="text/javascript" src="js/topologyPosition.js"></script>-->
+		<script type="text/javascript" src="js/index.js"></script>
+		<noscript>
+			<style type="text/css">
+				.pagecontainer {display:none;}
+			</style>
+			<div class="noscriptmsg">
+				You don't have javascript enabled.  Good luck with that.
+			</div>
+		</noscript>
+
+	</body>
+</html>

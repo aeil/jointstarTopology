@@ -1,0 +1,324 @@
+/*
+	Structure
+	--------------------------------------------------
+*/
+
+.wrap {
+	margin: 20px auto;
+	width: 80%;
+}
+
+.set,
+.panel {
+	margin: 0 0 10px;
+}
+
+
+/*
+	Tabs
+	--------------------------------------------------
+*/
+
+.tabs .panel {padding: 10px;}
+
+.tabs-menu {
+	border-bottom: 1px solid #ccc;
+	padding: 0 10px;
+}
+
+.tabs-menu li {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	margin: 0 3px -1px 0;
+	border: 1px solid #ccc;
+	border-radius: 3px 3px 0 0;
+	padding: 6px 12px;
+	background-color: #ededed;
+	cursor: pointer;
+	position: relative;
+}
+
+.tabs-menu .active-tab {
+	background-color: #fff;
+	border-bottom: 0;
+	padding-bottom: 7px;
+}
+
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+h1, h2, h3 {
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.4em;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+p, blockquote, ul, ol {
+	margin-bottom: 1.5em;
+	line-height: 1.8em;
+	text-align: justify;
+}
+
+p {
+}
+
+blockquote {
+	margin-left: 3em;
+	margin-right: 3em;
+	font-style: italic;
+}
+
+ul {
+	list-style: square inside;
+}
+
+ul li {
+}
+
+ol {
+	margin-left: 3em;
+}
+
+ol li {
+}
+
+a {
+	color: #900;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+img {
+}
+
+/* Center Box */
+
+.center-box {
+	margin-bottom: 10px;
+	padding: 20px;
+	background: #fc6;
+	border-top: 5px solid #900;
+	border-right: 15px solid #c00;
+	border-bottom: 5px solid #f33;
+	border-left: 15px solid #c00;
+}
+
+
+
+/* Left Box */
+
+.left-box {
+	margin-bottom: 10px;
+}
+
+
+
+
+/* Right Box */
+
+.right-box {
+	margin-bottom: 10px;
+}
+
+
+
+
+/* Logo */
+
+#logo {
+	width: 630px;
+	margin: 0 auto 10px auto;
+}
+
+#logo h1 {
+}
+
+#logo h2 {
+}
+
+#logo a {
+	text-decoration: none;
+}
+
+/* Content */
+
+#content {
+	margin: 0 auto;
+}
+
+/* Content > Main */
+
+#main {
+	float: left;
+	width: 470px;
+	padding: 0 0 0 10px;
+}
+
+/* Content > Main > Welcome */
+
+#welcome {
+	width: 750px;
+	height: 200px;
+}
+
+#welcome #piechart{
+	width: 550px;
+	float: left;
+}
+
+#welcome #priority{
+	width: 200px;
+	float: left;
+}
+
+#priority table {
+    border: 1px solid silver;
+    width:  150px;
+}
+
+/* Content > Main > Example */
+
+#example {
+	padding-bottom: 13px;
+}
+
+/* Content > Sidebar */
+
+#sidebar {
+	float: left;
+	width: 220px;
+}
+
+/* Content > Sidebar > Menu */
+
+#menu {
+}
+
+#menu ul {
+}
+
+#menu li {
+}
+
+#menu a {
+}
+
+#menu a:hover, #menu .active a {
+}
+
+/* Content > Sidebar > Updates */
+
+#updates {
+}
+
+#updates ul {
+}
+
+#updates h3 {
+	display: inline;
+}
+
+#updates p {
+	font-size: .8em;
+}
+
+/* Footer */
+
+#footer {
+	clear: both;
+	width: 630px;
+	margin: 0 auto;
+	font-size: x-small;
+}
+
+#footer p {
+	margin: 0;
+}
+
+/* Footer > Legal */
+
+#legal {
+}
+
+/* Footer > Links */
+
+#links {
+}
+
+/* navigate */
+nav#priority_qos_navigate { position:relative; top:45%; right:20px; z-index:9999; float: right}
+
+/* I added #priority_qos_navigate to the selector of the active class */
+
+nav#priority_qos_navigate a:hover, nav#priority_qos_navigate li.active a { background: #ff0; }
+nav#priority_qos_navigate li{ list-style-type: none; }
+nav#priority_qos_navigate a { margin-bottom:10px; background: #000; display:block; height:15px; width:15px; overflow:hidden; }
+
+tr.alt td {
+    background-color: #ecf6fc;
+}
+
+/* form */
+#user_detail input { 
+	padding: 9px;
+	border: solid 1px #E5E5E5;
+	outline: 0;
+	font: normal 13px/100% Verdana, Tahoma, sans-serif;
+	width: 80px;
+	background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+}
+
+#user_detail input:hover,
+#user_detail input:focus, { 
+	border-color: #C9C9C9; 
+	-webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+}
+#user_detail{
+	float:left;
+	border-left:150px solid transparent; /* The width and color of the left rail */
+	border-right:200px solid  transparent; /* The width and color of the right rail */
+	display:inline; /* So IE plays nice */
+}
+#user_detail .user_detail_leftRail{
+	float:left;
+	width:250px;
+	margin-left:-150px;
+	position:relative;
+}
+#user_detail .user_detail_center{
+	float:left;
+	width:100%;
+	margin-right:-100%;
+}
+#user_detail .user_detail_rightRail{
+	float:right;
+	width:200px;
+	margin-right:-200px;
+	position:relative;
+}
+
